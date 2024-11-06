@@ -106,47 +106,39 @@
       <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="DemoOpteamix" sap:VirtualizedContainerService.HintSize="1276,2927" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="DemoOpteamix" sap:VirtualizedContainerService.HintSize="1272,3102" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="1158,2799" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="1158,2974" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
-        <Variable x:TypeArguments="x:String" Name="WebUrl">
-          <Variable.Default>
-            <Literal x:TypeArguments="x:String">https://opteamix.com/</Literal>
-          </Variable.Default>
-        </Variable>
+        <Variable x:TypeArguments="x:String" Default="https://opteamix.com/" Name="WebUrl" />
         <Variable x:TypeArguments="x:String" Name="OutValues" />
         <Variable x:TypeArguments="x:String" Name="NewValues" />
-        <Variable x:TypeArguments="x:String" Name="Expectedval">
-          <Variable.Default>
-            <Literal x:TypeArguments="x:String">Application Modernization</Literal>
-          </Variable.Default>
-        </Variable>
+        <Variable x:TypeArguments="x:String" Default="Application Modernization" Name="Expectedval" />
       </Sequence.Variables>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Digital | IT Services | AI | Application Engineering | GCC" sap:VirtualizedContainerService.HintSize="1124,2707" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="24d4f950-4eaf-4464-9d30-b25733981868" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Digital | IT Services | AI | Application Engineering | GCC" sap:VirtualizedContainerService.HintSize="1124,2882" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="24d4f950-4eaf-4464-9d30-b25733981868" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1090,2467" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1090,2642" sap2010:WorkflowViewState.IdRef="Sequence_5">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NCheckState DisplayName="Check App State 'Blog'" sap:VirtualizedContainerService.HintSize="1056,2405" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="24d4f950-4eaf-4464-9d30-b25733981868" Timeout="5" Version="V4">
+              <uix:NCheckState DisplayName="Check App State 'Blog'" sap:VirtualizedContainerService.HintSize="1056,2580" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="24d4f950-4eaf-4464-9d30-b25733981868" Timeout="5" Version="V4">
                 <uix:NCheckState.IfExists>
-                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="552,2163" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="552,2338" sap2010:WorkflowViewState.IdRef="Sequence_6">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -154,13 +146,13 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="518,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Successfully launched the Opteamix web page&quot; + WebUrl]" />
-                    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Careers | Job Opportunities | Opteamix" sap:VirtualizedContainerService.HintSize="518,1926" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="0a8fcbf0-90b7-4cbe-9c0b-66335294412e" Version="V2">
+                    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Careers | Job Opportunities | Opteamix" sap:VirtualizedContainerService.HintSize="518,2101" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="0a8fcbf0-90b7-4cbe-9c0b-66335294412e" Version="V2">
                       <uix:NApplicationCard.Body>
                         <ActivityAction x:TypeArguments="x:Object">
                           <ActivityAction.Argument>
                             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                           </ActivityAction.Argument>
-                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,1684" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,1859" sap2010:WorkflowViewState.IdRef="Sequence_8">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -319,6 +311,7 @@
                                 </Sequence>
                               </If.Else>
                             </If>
+                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[&quot;Sucess&quot;]" />
                             <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450,50" sap2010:WorkflowViewState.IdRef="CommentOut_4">
                               <ui:CommentOut.Body>
                                 <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,108" sap2010:WorkflowViewState.IdRef="Sequence_12">
@@ -372,7 +365,7 @@
                 <uix:NCheckState.Target>
                   <uix:TargetAnchorable BrowserURL="https://opteamix.com/" CVScreenId="04638b91-2941-43b3-adee-bb43329d0aad" CvTextArea="122, 234, 308, 65" CvTextArgument="OpTcaMIx" CvType="Text" DesignTimeRectangle="122, 234, 307, 66" DesignTimeScaleFactor="1" ElementType="Icon" FuzzyAccuracy="0.8" FuzzySelectorArgument="&lt;webctrl tag='IMG' aaname='Opteamix Original Logo in Black' type='' class='attachment-full size-full wp-image-5092 entered lazyloaded' /&gt;" Guid="5cae78c0-189c-46cf-be43-1e4de12d8102" InformativeScreenshot="ceb1fdf906af975afc371f623dae3a87.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Digital | IT Services | AI | Application Engineering | GCC' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" WaitForReadyArgument="Complete">
                     <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                         <uix:Target CVScreenId="04638b91-2941-43b3-adee-bb43329d0aad" CvTextArea="1612, 186, 53, 18" CvTextArgument="BLOG" CvType="Text" DesignTimeRectangle="1613, 182, 51, 29" ElementType="Text" FuzzyAccuracy="0.8" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='elementor-icon-list-text' aaname='Blog' /&gt;" Guid="42c7c488-d430-4478-aec2-93b170489e1d" SearchSteps="Selector, FuzzySelector, CV" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
