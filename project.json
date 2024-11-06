@@ -54,18 +54,18 @@
         "fileName": "TestCase.xaml"
       },
       {
-        "editingStatus": "InProgress",
-        "testCaseId": "7fbaa4b0-1f4d-43d5-8888-0cf4848183d1",
-        "testCaseType": "TestCase",
-        "executionTemplateInvokeIsolated": false,
-        "fileName": "SmallDemo.xaml"
-      },
-      {
         "editingStatus": "Publishable",
         "testCaseId": "ab30a1b9-1892-4a77-af64-1314ffa70747",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
-        "fileName": "DemoOpteamix.xaml"
+        "fileName": "Testcases\\DemoOpteamix.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7fbaa4b0-1f4d-43d5-8888-0cf4848183d1",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Testcases\\SmallDemo.xaml"
       }
     ],
     "saveToCloud": false
